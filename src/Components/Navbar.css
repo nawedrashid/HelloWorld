@@ -1,0 +1,13 @@
+.navbar{
+    height: 70px;
+    background-color: brown;
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 0 1.5rem;
+}
+.name{
+    margin-right: 5%;
+    font-weight: bolder;
+}

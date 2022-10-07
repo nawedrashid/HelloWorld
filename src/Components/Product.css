@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,0.5fr));
+    grid-gap: 1.25rem;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.card{
+    border: solid 0.15rem brown;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    transition: 0.3s ease;
+    text-align: center;
+    background-color: beige;
+}
+.card:hover{
+    cursor: pointer;
+    transform: translate(10px,10px);
+}
+.card img{
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    height: 16rem
+}
+.card .detail{
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+}
